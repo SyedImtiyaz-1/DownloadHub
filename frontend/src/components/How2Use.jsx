@@ -1,4 +1,7 @@
 import React from 'react'
+import Step1 from './assets/Step 1.png'
+import Step2 from './assets/Step 2.png'
+import Step3 from './assets/Step 3.png'
 
 const How2Use = () => {
     return (
@@ -46,21 +49,41 @@ const How2Use = () => {
                             </ul>
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-6">
                             <h2 className="text-2xl font-semibold text-gray-700">Quick Practical Guide</h2>
-                            <ul className="list-disc flex list-inside w-1/2 space-y-2 text-gray-600 ml-4">
-                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/components/assets/Step 1.png" alt="" />
-                            </ul>
-                            <br />
-                            <ul className="list-disc flex list-inside w-1/2 space-y-2 text-gray-600 ml-4">
-                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/components/assets/Step 2.png" alt="" />
-                            </ul>
-                            <br />
-                            <ul className="list-disc flex list-inside w-1/2 space-y-2 text-gray-600 ml-4">
-                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/components/assets/Step 3.png" alt="" />
-                            </ul>
+                            <div className="flex flex-col space-y-6">
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                    <span className="text-xl">➡️</span>
+                                    <div className="w-full sm:w-auto">
+                                        <img 
+                                            src={Step1} 
+                                            alt="Step 1: Copy the video URL" 
+                                            className="rounded-lg shadow-md w-full max-w-full sm:max-w-md h-auto object-contain" 
+                                        />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                    <span className="text-xl">➡️</span>
+                                    <div className="w-full sm:w-auto">
+                                        <img 
+                                            src={Step2} 
+                                            alt="Step 2: Choose format and paste URL" 
+                                            className="rounded-lg shadow-md w-full max-w-full sm:max-w-md h-auto object-contain" 
+                                        />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                    <span className="text-xl">➡️</span>
+                                    <div className="w-full sm:w-auto">
+                                        <img 
+                                            src={Step3} 
+                                            alt="Step 3: Click download" 
+                                            className="rounded-lg shadow-md w-full max-w-full sm:max-w-md h-auto object-contain" 
+                                        />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <br />
                         <h3 className="text-center text-gray-700">
                             Creator : {" "}
                             <a 
