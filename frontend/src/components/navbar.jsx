@@ -43,6 +43,16 @@ const Navbar = () => {
                             Twitter
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink
+                            to="/howtouse"
+                            className={({ isActive }) =>
+                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                            }
+                        >
+                            How to use ?
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
         </nav>

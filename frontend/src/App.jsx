@@ -3,6 +3,7 @@ import Navbar from './components/navbar'
 import Youtube from './platforms/youtube'
 import Instagram from './platforms/instagram'
 import Twitter from './platforms/twitter'
+import How2Use from './components/How2Use'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Youtube />} />
             <Route path="/instagram" element={<Instagram />} />
             <Route path="/twitter" element={<Twitter />} />
+            <Route path="/howtouse" element={<How2Use />} />
           </Routes>
         </main>
       </div>
