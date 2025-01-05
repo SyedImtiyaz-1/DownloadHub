@@ -49,15 +49,15 @@ const How2Use = () => {
                         <div className="space-y-4">
                             <h2 className="text-2xl font-semibold text-gray-700">Quick Practical Guide</h2>
                             <ul className="list-disc flex list-inside w-1/2 space-y-2 text-gray-600 ml-4">
-                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/assets/Step 1.png" alt="" />
+                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/components/assets/Step 1.png" alt="" />
                             </ul>
                             <br />
                             <ul className="list-disc flex list-inside w-1/2 space-y-2 text-gray-600 ml-4">
-                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/assets/Step 2.png" alt="" />
+                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/components/assets/Step 2.png" alt="" />
                             </ul>
                             <br />
                             <ul className="list-disc flex list-inside w-1/2 space-y-2 text-gray-600 ml-4">
-                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/assets/Step 3.png" alt="" />
+                            ➡️&nbsp;&nbsp;&nbsp; <img src="../src/components/assets/Step 3.png" alt="" />
                             </ul>
                         </div>
                         <br />
