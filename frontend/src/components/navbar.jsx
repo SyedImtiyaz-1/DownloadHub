@@ -1,28 +1,51 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className="navbar flex justify-between items-center p-4 px-32 bg-gray-800 text-white">
+        <nav className="navbar flex justify-between items-center p-4 px-32 bg-gray-800 text-white">
             <div className="navbarLeft">
-                <h1 className="text-xl font-bold">
-                    Download<span className="text-sky-600">Hub.</span>
-                </h1>
+                <Link to="/" className="hover:opacity-90 transition-opacity">
+                    <h1 className="text-xl font-bold">
+                        Download<span className="text-sky-600">Hub.</span>
+                    </h1>
+                </Link>
             </div>
             <div className="navbarRight">
                 <ul className="flex space-x-10 text-white">
                     <li>
-                        <Link to="/">Youtube</Link>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                            }
+                        >
+                            Youtube
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/">Instagram</Link>
+                        <NavLink
+                            to="/instagram"
+                            className={({ isActive }) =>
+                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                            }
+                        >
+                            Instagram
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/">Twitter</Link>
+                        <NavLink
+                            to="/twitter"
+                            className={({ isActive }) =>
+                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                            }
+                        >
+                            Twitter
+                        </NavLink>
                     </li>
                 </ul>
             </div>
-        </div>
+        </nav>
     );
 }
 
