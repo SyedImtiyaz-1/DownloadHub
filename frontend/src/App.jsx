@@ -14,8 +14,8 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Youtube />} />
-            <Route path="/instagram" element={<Instagram />} />
-            <Route path="/twitter" element={<Twitter />} />
+            {/* <Route path="/instagram" element={<Instagram />} /> */}
+            {/* <Route path="/twitter" element={<Twitter />} /> */}
             <Route path="/howtouse" element={<How2Use />} />
           </Routes>
         </main>

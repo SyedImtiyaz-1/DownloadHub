@@ -19,7 +19,7 @@ const Navbar = () => {
                             </h1>
                         </Link>
                     </div>
-                    
+
                     {/* Mobile menu button */}
                     <div className="sm:hidden">
                         <button
@@ -53,47 +53,47 @@ const Navbar = () => {
                     {/* Desktop menu */}
                     <div className="hidden sm:block">
                         <ul className="flex space-x-8 text-white">
-                    <li>
-                        <NavLink
-                            to="/"
-                            className={({ isActive }) =>
-                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
-                            }
-                        >
-                            Youtube
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/instagram"
-                            className={({ isActive }) =>
-                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
-                            }
-                        >
-                            Instagram
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/twitter"
-                            className={({ isActive }) =>
-                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
-                            }
-                        >
-                            Twitter
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink
-                            to="/howtouse"
-                            className={({ isActive }) =>
-                                `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
-                            }
-                        >
-                            How to use ?
-                        </NavLink>
-                    </li>
-                </ul>
+                            <li>
+                                <NavLink
+                                    to="/"
+                                    className={({ isActive }) =>
+                                        `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                                    }
+                                >
+                                    Youtube
+                                </NavLink>
+                            </li>
+                            {/* <li>
+                                <NavLink
+                                    to="/instagram"
+                                    className={({ isActive }) =>
+                                        `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                                    }
+                                >
+                                    Instagram
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                    to="/twitter"
+                                    className={({ isActive }) =>
+                                        `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                                    }
+                                >
+                                    Twitter
+                                </NavLink>
+                            </li> */}
+                            <li>
+                                <NavLink
+                                    to="/howtouse"
+                                    className={({ isActive }) =>
+                                        `hover:text-sky-400 transition-colors ${isActive ? 'text-sky-500' : ''}`
+                                    }
+                                >
+                                    How to use ?
+                                </NavLink>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
