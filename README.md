@@ -34,3 +34,16 @@ frontend/
 
 This structure organizes the code by feature and responsibility, making it easy to locate and maintain different parts of the application. The `platforms` directory contains components specific to each supported social media platform, while the `components` directory houses reusable UI elements used throughout the application.
 
+## Screenshot
+``` Youtube Download Page ```
+
+![Screenshot from 2025-02-28 18-22-59](https://github.com/user-attachments/assets/1ed6ccae-2f37-43c6-a827-93a1c13bee81)
+
+``` How to use (Page - Scroll 1) ```
+
+![Screenshot from 2025-02-28 18-23-24](https://github.com/user-attachments/assets/f8429da5-4b57-4c4c-89ed-77edfd118bbc)
+
+``` How to use (Page - Scroll 2) ```
+
+![Screenshot from 2025-02-28 18-23-33](https://github.com/user-attachments/assets/06bd26bb-2ad6-4a1d-ab7f-1583a527ce97)
+
